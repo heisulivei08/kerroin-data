@@ -5,7 +5,7 @@ Vaihda DATA_URL omaan repositorioosi: https://raw.githubusercontent.com/KÄYTTÄ
 import pandas as pd
 import streamlit as st
 
-DATA_URL = "https://raw.githubusercontent.com/KÄYTTÄJÄ/REPO/main/kertoimet.csv"
+DATA_URL = "https://raw.githubusercontent.com/heisulivei08/kerroin-data/main/kertoimet.csv"
 LOCAL_FILE = "kertoimet.csv"
 
 st.set_page_config(page_title="Kertoimien kehitys", layout="wide")
