@@ -24,6 +24,7 @@ jobs:
       - name: Hae kertoimet
         env:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
         run: python kerroin_keraaja.py
       - name: Tallenna muutokset
         run: |
